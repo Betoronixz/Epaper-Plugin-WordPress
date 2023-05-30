@@ -1,0 +1,96 @@
+.preview {
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.ep{
+  display: flex;
+  width:100% !important;
+}
+#modal .modal-lg {
+  max-width: 50%;
+}
+
+#modal .modal-body {
+  padding: 0;
+}
+#modal{
+	margin-top:50px;
+}
+#modal .img-container {
+  height: 100%;
+	margin:10px;
+  overflow: hidden;
+}
+
+#modal img#image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.eptable{
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+  height: 1600px;
+  overflow-y: scroll;
+  margin: 2px;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+	
+}
+.modal{
+	overflow:hidden;
+}
+.epimg{
+  width: 100%;
+  height:100px;
+ 
+}
+.im1{
+margin-bottom:5px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	#modal .modal-lg {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+#modal {
+  
+  align-items: center;
+  justify-content: center;
+
+}
+
+  .ep {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .eptable {
+    width: 100%;
+    display: flex;
+    float: none;
+    margin-right: 0;
+    margin-top: 10px;
+    height: 160px;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .epimg {
+    width: 100%;
+    height: auto;
+    
+  }
+  .im1{
+margin-left:5px;
+}
+}
