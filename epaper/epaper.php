@@ -1,9 +1,7 @@
 <?php
 /*
  * Plugin Name:       epaper crop
- * Author:            Traffic Tail
- * Author URI:        httimage_data://traffictail.com/
- * Plugin URI:        httimage_data://traffictail.com/
+ * Author:            Sonu Betronixz
  * Version:           1.0.0  
  */
 
